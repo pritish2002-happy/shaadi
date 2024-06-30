@@ -9,7 +9,7 @@ form.addEventListener("submit",(e)=>{
     const authenticated = authentication(username,password)
 
     if(authenticated){
-        window.location.href = "/";
+        window.location.href = "https://jkmarriage.netlify.app/";
     }else{
         alert("wrong");     
     }
